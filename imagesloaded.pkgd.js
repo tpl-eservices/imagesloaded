@@ -466,7 +466,7 @@
 
 	// Expose the class either via AMD, CommonJS or the global object
 	if (typeof define === 'function' && define.amd) {
-		define('eventEmitter/EventEmitter',[],function () {
+		define('wolfy87-eventEmitter/EventEmitter',[],function () {
 			return EventEmitter;
 		});
 	}
