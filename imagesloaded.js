@@ -12,7 +12,7 @@
   if ( typeof define === 'function' && define.amd ) {
     // AMD
     define( [
-      'wolfy87-eventEmitter/EventEmitter',
+      'wolfy87-eventemitter/EventEmitter',
       'eventie/eventie'
     ], function( EventEmitter, eventie ) {
       return factory( window, EventEmitter, eventie );
